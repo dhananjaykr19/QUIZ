@@ -1,0 +1,28 @@
+body{
+   
+    background-color: rgb(240, 239, 239);
+}
+.div{
+    border: 3px solid rgb(88, 43, 177);
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 450px;
+    padding: 100px 100px 100px 100px;
+    display: inline-flex;
+}
+.btn{
+    margin-right: 15px;
+    font-size: xx-large;
+}
+@media only screen and (max-width: 600px) {
+    .div {
+        margin-top: 100px; /* Adjust the margin for better positioning on smaller screens */
+        margin-left: 10px; /* Adjust the margin for better positioning on smaller screens */
+        margin-right: 10px; /* Adjust the margin for better positioning on smaller screens */
+        padding: 15px; /* Adjust the padding for better spacing on smaller screens */
+    }
+
+    .btn {
+        margin-top: 5px; /* Adjust the margin for better spacing on smaller screens */
+    }
+}
